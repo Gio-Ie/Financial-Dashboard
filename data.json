@@ -1,0 +1,138 @@
+{
+  "asOf": "20 May 2026",
+  "updatedAt": "11:44 20 May 2026 UTC",
+  "sections": [
+    {
+      "label": "Equities",
+      "rows": [
+        {
+          "name": "S&P 500",
+          "unit": "USD pts",
+          "ccy": "USD",
+          "close": "\u2014",
+          "daily": "\u2014",
+          "ytd": "\u2014",
+          "dSign": 0,
+          "ySign": 0,
+          "asOf": "\u2014"
+        },
+        {
+          "name": "Nasdaq",
+          "unit": "USD pts",
+          "ccy": "USD",
+          "close": "\u2014",
+          "daily": "\u2014",
+          "ytd": "\u2014",
+          "dSign": 0,
+          "ySign": 0,
+          "asOf": "\u2014"
+        },
+        {
+          "name": "STOXX 600",
+          "unit": "EUR pts",
+          "ccy": "EUR",
+          "close": "\u2014",
+          "daily": "\u2014",
+          "ytd": "\u2014",
+          "dSign": 0,
+          "ySign": 0,
+          "asOf": "\u2014"
+        },
+        {
+          "name": "Nikkei 225",
+          "unit": "JPY pts",
+          "ccy": "JPY",
+          "close": "\u2014",
+          "daily": "\u2014",
+          "ytd": "\u2014",
+          "dSign": 0,
+          "ySign": 0,
+          "asOf": "\u2014"
+        },
+        {
+          "name": "MSCI EM",
+          "unit": "USD pts",
+          "ccy": "USD",
+          "close": "\u2014",
+          "daily": "\u2014",
+          "ytd": "\u2014",
+          "dSign": 0,
+          "ySign": 0,
+          "asOf": "\u2014"
+        }
+      ]
+    },
+    {
+      "label": "Commodities",
+      "rows": [
+        {
+          "name": "Gold",
+          "unit": "USD / oz",
+          "ccy": "USD",
+          "close": "\u2014",
+          "daily": "\u2014",
+          "ytd": "\u2014",
+          "dSign": 0,
+          "ySign": 0,
+          "asOf": "\u2014"
+        },
+        {
+          "name": "Crude Oil WTI",
+          "unit": "USD / bbl",
+          "ccy": "USD",
+          "close": "\u2014",
+          "daily": "\u2014",
+          "ytd": "\u2014",
+          "dSign": 0,
+          "ySign": 0,
+          "asOf": "\u2014"
+        }
+      ]
+    },
+    {
+      "label": "Bond Yields",
+      "rows": [
+        {
+          "name": "US Treasury 1Y",
+          "unit": "Yield %",
+          "isBond": true,
+          "close": "3.54%",
+          "daily": "+2.0 bps",
+          "ytd": "-110.0 bps",
+          "dSign": 1,
+          "ySign": -1
+        },
+        {
+          "name": "US Treasury 10Y",
+          "unit": "Yield %",
+          "isBond": true,
+          "close": "4.32%",
+          "daily": "+7.0 bps",
+          "ytd": "+13.0 bps",
+          "dSign": 1,
+          "ySign": 1
+        },
+        {
+          "name": "BTP Italy 1Y",
+          "unit": "Yield %",
+          "isBond": true,
+          "close": "2.54%",
+          "daily": "+2.1 bps",
+          "ytd": "-31.3 bps",
+          "dSign": 1,
+          "ySign": -1
+        },
+        {
+          "name": "BTP Italy 10Y",
+          "unit": "Yield %",
+          "isBond": true,
+          "close": "3.22%",
+          "daily": "+4.8 bps",
+          "ytd": "-28.0 bps",
+          "dSign": 1,
+          "ySign": -1
+        }
+      ]
+    }
+  ]
+}
