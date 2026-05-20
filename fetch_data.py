@@ -165,6 +165,33 @@ def fetch_ecb(maturity, name, ytd_base):
         "dSign": sign(chg), "ySign": sign(ytd_chg)
     }
  
+def fetch_ecb_fx():
+    """ECB publishes daily EUR/USD at 4pm Frankfurt - always current"""
+    try:
+        url = "https://data-api.ecb.europa.eu/service/data/EXR/D.USD.EUR.SP00.A?format=jsondata&lastNObservations=2"
+        with urllib.request.urlopen(url, timeout=15) as r:
+            d = json.loads(r.read())
+        vals = d["dataSets"][0]["series"]["0:0:0:0:0"]["observations"]
+        keys = sorted(vals.keys(), key=int)
+        cur  = float(vals[keys[-1]][0])
+        prev = float(vals[keys[-2]][0])
+        daily = pct(cur, prev)
+        # YTD base from ECB
+        url2 = "https://data-api.ecb.europa.eu/service/data/EXR/D.USD.EUR.SP00.A?format=jsondata&startPeriod=2026-01-02&endPeriod=2026-01-09"
+        with urllib.request.urlopen(url2, timeout=15) as r:
+            d2 = json.loads(r.read())
+        vals2 = d2["dataSets"][0]["series"]["0:0:0:0:0"]["observations"]
+        keys2 = sorted(vals2.keys(), key=int)
+        ytd_base = float(vals2[keys2[0]][0])
+        ytd = pct(cur, ytd_base)
+        print(f"OK ECB EUR/USD: {cur:.4f} ({daily:+.2f}%)")
+        return {"name": "EUR / USD", "unit": "Rate", "close": f"{cur:.4f}",
+                "daily": f"{daily:+.2f}%", "ytd": f"{ytd:+.1f}%",
+                "dSign": sign(daily), "ySign": sign(ytd), "asOf": "ECB daily"}
+    except Exception as e:
+        print(f"WARN ECB FX: {e}")
+        return fetch_fx("EURUSD=X", "EUR / USD", "Rate")
+ 
 # ── FETCH ALL ─────────────────────────────────────────────────────────────
 print("=== Equities ===")
 equities = [
@@ -183,8 +210,8 @@ commodities = [
  
 print("=== FX ===")
 fx = [
-    fetch_fx("EURUSD=X", "EUR / USD", "Rate"),
-    fetch_fx("JPYUSD=X", "JPY / USD", "Rate"),
+    fetch_ecb_fx(),
+    fetch_fx("USDJPY=X", "USD / JPY", "Rate"),
 ]
  
 print("=== Bond Yields ===")
