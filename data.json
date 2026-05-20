@@ -1,6 +1,6 @@
 {
   "asOf": "19 May 2026",
-  "updatedAt": "12:45 20 May 2026 UTC",
+  "updatedAt": "12:51 20 May 2026 UTC",
   "sections": [
     {
       "label": "Equities",
@@ -88,21 +88,21 @@
         {
           "name": "EUR / USD",
           "unit": "Rate",
-          "close": "1.1655",
-          "daily": "+0.35%",
-          "ytd": "-0.8%",
-          "dSign": 1,
-          "ySign": -1,
-          "asOf": "19 May 2026"
-        },
-        {
-          "name": "JPY / USD",
-          "unit": "Rate",
-          "close": "0.0063",
-          "daily": "-0.01%",
-          "ytd": "-1.3%",
+          "close": "1.1620",
+          "daily": "-0.24%",
+          "ytd": "-0.9%",
           "dSign": -1,
           "ySign": -1,
+          "asOf": "ECB daily"
+        },
+        {
+          "name": "USD / JPY",
+          "unit": "Rate",
+          "close": "158.8610",
+          "daily": "+0.01%",
+          "ytd": "+1.4%",
+          "dSign": 1,
+          "ySign": 1,
           "asOf": "19 May 2026"
         }
       ]
