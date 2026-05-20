@@ -1,6 +1,6 @@
 {
   "asOf": "19 May 2026",
-  "updatedAt": "12:37 20 May 2026 UTC",
+  "updatedAt": "12:45 20 May 2026 UTC",
   "sections": [
     {
       "label": "Equities",
@@ -10,7 +10,7 @@
           "unit": "USD pts",
           "close": "7,353.61",
           "daily": "-0.67%",
-          "ytd": "+53.4%",
+          "ytd": "+7.2%",
           "dSign": -1,
           "ySign": 1,
           "asOf": "19 May 2026"
@@ -20,7 +20,7 @@
           "unit": "USD pts",
           "close": "25,871",
           "daily": "-0.84%",
-          "ytd": "+53.7%",
+          "ytd": "+11.3%",
           "dSign": -1,
           "ySign": 1,
           "asOf": "19 May 2026"
@@ -30,7 +30,7 @@
           "unit": "EUR pts",
           "close": "611.34",
           "daily": "+0.19%",
-          "ytd": "+19.5%",
+          "ytd": "+1.6%",
           "dSign": 1,
           "ySign": 1,
           "asOf": "19 May 2026"
@@ -40,7 +40,7 @@
           "unit": "JPY pts",
           "close": "60,551",
           "daily": "-0.44%",
-          "ytd": "+51.8%",
+          "ytd": "+16.8%",
           "dSign": -1,
           "ySign": 1,
           "asOf": "19 May 2026"
@@ -50,7 +50,7 @@
           "unit": "USD pts",
           "close": "64.26",
           "daily": "-1.09%",
-          "ytd": "+66.9%",
+          "ytd": "+14.3%",
           "dSign": -1,
           "ySign": 1,
           "asOf": "19 May 2026"
@@ -65,7 +65,7 @@
           "unit": "USD / oz",
           "close": "4,506.30",
           "daily": "-1.01%",
-          "ytd": "+71.7%",
+          "ytd": "+4.5%",
           "dSign": -1,
           "ySign": 1,
           "asOf": "19 May 2026"
@@ -75,9 +75,34 @@
           "unit": "USD / bbl",
           "close": "107.77",
           "daily": "-0.82%",
-          "ytd": "+73.4%",
+          "ytd": "+88.0%",
           "dSign": -1,
           "ySign": 1,
+          "asOf": "19 May 2026"
+        }
+      ]
+    },
+    {
+      "label": "FX",
+      "rows": [
+        {
+          "name": "EUR / USD",
+          "unit": "Rate",
+          "close": "1.1655",
+          "daily": "+0.35%",
+          "ytd": "-0.8%",
+          "dSign": 1,
+          "ySign": -1,
+          "asOf": "19 May 2026"
+        },
+        {
+          "name": "JPY / USD",
+          "unit": "Rate",
+          "close": "0.0063",
+          "daily": "-0.01%",
+          "ytd": "-1.3%",
+          "dSign": -1,
+          "ySign": -1,
           "asOf": "19 May 2026"
         }
       ]
