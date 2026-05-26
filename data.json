@@ -1,6 +1,6 @@
 {
   "asOf": "22 May 2026",
-  "updatedAt": "14:18 25 May 2026 UTC",
+  "updatedAt": "12:50 26 May 2026 UTC",
   "sections": [
     {
       "label": "Equities",
@@ -38,12 +38,12 @@
         {
           "name": "Nikkei 225",
           "unit": "JPY pts",
-          "close": "63,339",
-          "daily": "+2.68%",
-          "ytd": "+22.2%",
+          "close": "65,158",
+          "daily": "+2.87%",
+          "ytd": "+25.7%",
           "dSign": 1,
           "ySign": 1,
-          "asOf": "22 May 2026"
+          "asOf": "25 May 2026"
         },
         {
           "name": "MSCI EM",
@@ -98,12 +98,12 @@
         {
           "name": "USD / JPY",
           "unit": "Rate",
-          "close": "159.0180",
-          "daily": "+0.08%",
-          "ytd": "+1.5%",
-          "dSign": 1,
+          "close": "158.9460",
+          "daily": "-0.05%",
+          "ytd": "+1.4%",
+          "dSign": -1,
           "ySign": 1,
-          "asOf": "22 May 2026"
+          "asOf": "25 May 2026"
         }
       ]
     },
@@ -136,9 +136,9 @@
           "name": "ECB 1Y Yield",
           "unit": "Yield %",
           "isBond": true,
-          "close": "2.44%",
-          "daily": "-7.8 bps",
-          "ytd": "-40.9 bps",
+          "close": "2.37%",
+          "daily": "-6.7 bps",
+          "ytd": "-47.6 bps",
           "dSign": -1,
           "ySign": -1
         },
@@ -146,9 +146,9 @@
           "name": "ECB 10Y Yield",
           "unit": "Yield %",
           "isBond": true,
-          "close": "3.08%",
-          "daily": "-5.7 bps",
-          "ytd": "-41.7 bps",
+          "close": "2.99%",
+          "daily": "-9.7 bps",
+          "ytd": "-51.4 bps",
           "dSign": -1,
           "ySign": -1
         }
