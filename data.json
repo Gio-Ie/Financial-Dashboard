@@ -1,6 +1,6 @@
 {
-  "asOf": "29 Jun 2026",
-  "updatedAt": "06:59 30 Jun 2026 UTC",
+  "asOf": "30 Jun 2026",
+  "updatedAt": "07:16 01 Jul 2026 UTC",
   "sections": [
     {
       "label": "Equities",
@@ -8,52 +8,52 @@
         {
           "name": "S&P 500",
           "unit": "USD pts",
-          "close": "7,440.43",
-          "daily": "+1.18%",
-          "ytd": "+8.5%",
+          "close": "7,499.36",
+          "daily": "+0.79%",
+          "ytd": "+9.3%",
           "dSign": 1,
           "ySign": 1,
-          "asOf": "29 Jun 2026"
+          "asOf": "30 Jun 2026"
         },
         {
           "name": "Nasdaq",
           "unit": "USD pts",
-          "close": "25,820",
-          "daily": "+2.07%",
-          "ytd": "+11.1%",
+          "close": "26,214",
+          "daily": "+1.52%",
+          "ytd": "+12.8%",
           "dSign": 1,
           "ySign": 1,
-          "asOf": "29 Jun 2026"
+          "asOf": "30 Jun 2026"
         },
         {
           "name": "STOXX 600",
           "unit": "EUR pts",
-          "close": "636.11",
-          "daily": "+0.04%",
-          "ytd": "+5.7%",
+          "close": "641.73",
+          "daily": "+0.88%",
+          "ytd": "+6.6%",
           "dSign": 1,
           "ySign": 1,
-          "asOf": "29 Jun 2026"
+          "asOf": "30 Jun 2026"
         },
         {
           "name": "Nikkei 225",
           "unit": "JPY pts",
-          "close": "69,468",
-          "daily": "+0.15%",
-          "ytd": "+34.0%",
+          "close": "70,062",
+          "daily": "+0.86%",
+          "ytd": "+35.2%",
           "dSign": 1,
           "ySign": 1,
-          "asOf": "29 Jun 2026"
+          "asOf": "30 Jun 2026"
         },
         {
           "name": "MSCI EM",
           "unit": "USD pts",
-          "close": "67.43",
-          "daily": "+0.36%",
-          "ytd": "+20.5%",
+          "close": "68.41",
+          "daily": "+1.45%",
+          "ytd": "+22.3%",
           "dSign": 1,
           "ySign": 1,
-          "asOf": "29 Jun 2026"
+          "asOf": "30 Jun 2026"
         }
       ]
     },
@@ -63,22 +63,22 @@
         {
           "name": "Gold",
           "unit": "USD / oz",
-          "close": "4,022.30",
-          "daily": "-1.38%",
+          "close": "4,022.90",
+          "daily": "+0.01%",
           "ytd": "-6.8%",
-          "dSign": -1,
+          "dSign": 1,
           "ySign": -1,
-          "asOf": "29 Jun 2026"
+          "asOf": "30 Jun 2026"
         },
         {
           "name": "Crude Oil WTI",
           "unit": "USD / bbl",
-          "close": "70.75",
-          "daily": "+2.20%",
-          "ytd": "+23.4%",
-          "dSign": 1,
+          "close": "69.50",
+          "daily": "-1.77%",
+          "ytd": "+21.2%",
+          "dSign": -1,
           "ySign": 1,
-          "asOf": "29 Jun 2026"
+          "asOf": "30 Jun 2026"
         }
       ]
     },
@@ -88,22 +88,22 @@
         {
           "name": "EUR / USD",
           "unit": "Rate",
-          "close": "1.1406",
-          "daily": "+0.04%",
-          "ytd": "-2.7%",
-          "dSign": 1,
+          "close": "1.1394",
+          "daily": "-0.11%",
+          "ytd": "-2.8%",
+          "dSign": -1,
           "ySign": -1,
           "asOf": "ECB daily"
         },
         {
           "name": "USD / JPY",
           "unit": "Rate",
-          "close": "161.7870",
-          "daily": "-0.01%",
-          "ytd": "+3.2%",
-          "dSign": -1,
+          "close": "161.9230",
+          "daily": "+0.08%",
+          "ytd": "+3.3%",
+          "dSign": 1,
           "ySign": 1,
-          "asOf": "29 Jun 2026"
+          "asOf": "30 Jun 2026"
         }
       ]
     },
@@ -146,11 +146,11 @@
           "name": "ECB 10Y Yield",
           "unit": "Yield %",
           "isBond": true,
-          "close": "2.92%",
-          "daily": "+0.6 bps",
-          "ytd": "-57.8 bps",
-          "dSign": 1,
-          "ySign": -1
+          "close": "\u2014",
+          "daily": "\u2014",
+          "ytd": "\u2014",
+          "dSign": 0,
+          "ySign": 0
         }
       ]
     }
