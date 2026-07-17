@@ -1,6 +1,6 @@
 {
-  "asOf": "15 Jul 2026",
-  "updatedAt": "05:45 16 Jul 2026 UTC",
+  "asOf": "16 Jul 2026",
+  "updatedAt": "05:46 17 Jul 2026 UTC",
   "sections": [
     {
       "label": "Equities",
@@ -8,52 +8,52 @@
         {
           "name": "S&P 500",
           "unit": "USD pts",
-          "close": "7,572.40",
-          "daily": "+0.38%",
-          "ytd": "+10.4%",
-          "dSign": 1,
+          "close": "7,533.77",
+          "daily": "-0.51%",
+          "ytd": "+9.8%",
+          "dSign": -1,
           "ySign": 1,
-          "asOf": "15 Jul 2026"
+          "asOf": "16 Jul 2026"
         },
         {
           "name": "Nasdaq",
           "unit": "USD pts",
-          "close": "26,269",
-          "daily": "+0.62%",
-          "ytd": "+13.1%",
-          "dSign": 1,
+          "close": "25,882",
+          "daily": "-1.47%",
+          "ytd": "+11.4%",
+          "dSign": -1,
           "ySign": 1,
-          "asOf": "15 Jul 2026"
+          "asOf": "16 Jul 2026"
         },
         {
           "name": "STOXX 600",
           "unit": "EUR pts",
-          "close": "642.71",
-          "daily": "+0.10%",
-          "ytd": "+6.8%",
+          "close": "643.73",
+          "daily": "+0.16%",
+          "ytd": "+7.0%",
           "dSign": 1,
           "ySign": 1,
-          "asOf": "15 Jul 2026"
+          "asOf": "16 Jul 2026"
         },
         {
           "name": "Nikkei 225",
           "unit": "JPY pts",
-          "close": "68,752",
-          "daily": "+1.49%",
-          "ytd": "+32.6%",
-          "dSign": 1,
+          "close": "66,836",
+          "daily": "-2.79%",
+          "ytd": "+28.9%",
+          "dSign": -1,
           "ySign": 1,
-          "asOf": "15 Jul 2026"
+          "asOf": "16 Jul 2026"
         },
         {
           "name": "MSCI EM",
           "unit": "USD pts",
-          "close": "65.57",
-          "daily": "-0.15%",
-          "ytd": "+17.2%",
+          "close": "64.19",
+          "daily": "-2.10%",
+          "ytd": "+14.7%",
           "dSign": -1,
           "ySign": 1,
-          "asOf": "15 Jul 2026"
+          "asOf": "16 Jul 2026"
         }
       ]
     },
@@ -63,22 +63,22 @@
         {
           "name": "Gold",
           "unit": "USD / oz",
-          "close": "4,044.00",
-          "daily": "-0.42%",
-          "ytd": "-6.3%",
+          "close": "3,985.60",
+          "daily": "-1.44%",
+          "ytd": "-7.6%",
           "dSign": -1,
           "ySign": -1,
-          "asOf": "15 Jul 2026"
+          "asOf": "16 Jul 2026"
         },
         {
           "name": "Crude Oil WTI",
           "unit": "USD / bbl",
-          "close": "79.60",
-          "daily": "+0.33%",
-          "ytd": "+38.9%",
-          "dSign": 1,
+          "close": "78.95",
+          "daily": "-0.82%",
+          "ytd": "+37.7%",
+          "dSign": -1,
           "ySign": 1,
-          "asOf": "15 Jul 2026"
+          "asOf": "16 Jul 2026"
         }
       ]
     },
@@ -88,9 +88,9 @@
         {
           "name": "EUR / USD",
           "unit": "Rate",
-          "close": "1.1406",
-          "daily": "+0.01%",
-          "ytd": "-2.7%",
+          "close": "1.1467",
+          "daily": "+0.53%",
+          "ytd": "-2.2%",
           "dSign": 1,
           "ySign": -1,
           "asOf": "ECB daily"
@@ -98,12 +98,12 @@
         {
           "name": "USD / JPY",
           "unit": "Rate",
-          "close": "162.1870",
-          "daily": "-0.15%",
-          "ytd": "+3.5%",
+          "close": "162.0720",
+          "daily": "-0.07%",
+          "ytd": "+3.4%",
           "dSign": -1,
           "ySign": 1,
-          "asOf": "15 Jul 2026"
+          "asOf": "16 Jul 2026"
         }
       ]
     },
@@ -114,32 +114,32 @@
           "name": "US Treasury 10Y",
           "unit": "Yield %",
           "isBond": true,
-          "close": "4.55%",
-          "daily": "-4.0 bps",
-          "ytd": "+35.5 bps",
-          "dSign": -1,
+          "close": "4.57%",
+          "daily": "+2.4 bps",
+          "ytd": "+37.9 bps",
+          "dSign": 1,
           "ySign": 1,
-          "asOf": "15 Jul 2026"
+          "asOf": "16 Jul 2026"
         },
         {
           "name": "US Treasury 1Y",
           "unit": "Yield %",
           "isBond": true,
-          "close": "3.69%",
-          "daily": "-1.2 bps",
-          "ytd": "-95.2 bps",
-          "dSign": -1,
+          "close": "3.70%",
+          "daily": "+0.9 bps",
+          "ytd": "-94.3 bps",
+          "dSign": 1,
           "ySign": -1,
-          "asOf": "15 Jul 2026"
+          "asOf": "16 Jul 2026"
         },
         {
           "name": "ECB 1Y Yield",
           "unit": "Yield %",
           "isBond": true,
-          "close": "2.57%",
-          "daily": "+2.7 bps",
-          "ytd": "-27.7 bps",
-          "dSign": 1,
+          "close": "2.56%",
+          "daily": "-1.6 bps",
+          "ytd": "-29.4 bps",
+          "dSign": -1,
           "ySign": -1
         },
         {
@@ -147,8 +147,8 @@
           "unit": "Yield %",
           "isBond": true,
           "close": "3.15%",
-          "daily": "+2.2 bps",
-          "ytd": "-35.4 bps",
+          "daily": "+0.8 bps",
+          "ytd": "-34.6 bps",
           "dSign": 1,
           "ySign": -1
         }
