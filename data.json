@@ -1,6 +1,6 @@
 {
-  "asOf": "31 Jul 2026",
-  "updatedAt": "06:28 03 Aug 2026 UTC",
+  "asOf": "3 Aug 2026",
+  "updatedAt": "05:53 04 Aug 2026 UTC",
   "sections": [
     {
       "label": "Equities",
@@ -8,22 +8,22 @@
         {
           "name": "S&P 500",
           "unit": "USD pts",
-          "close": "7,489.72",
-          "daily": "+0.70%",
-          "ytd": "+9.2%",
-          "dSign": 1,
-          "ySign": 1,
-          "asOf": "31 Jul 2026"
+          "close": "nan",
+          "daily": "+nan%",
+          "ytd": "+nan%",
+          "dSign": 0,
+          "ySign": 0,
+          "asOf": "3 Aug 2026"
         },
         {
           "name": "Nasdaq",
           "unit": "USD pts",
-          "close": "25,374",
-          "daily": "+1.00%",
-          "ytd": "+9.2%",
-          "dSign": 1,
-          "ySign": 1,
-          "asOf": "31 Jul 2026"
+          "close": "nan",
+          "daily": "+nan%",
+          "ytd": "+nan%",
+          "dSign": 0,
+          "ySign": 0,
+          "asOf": "3 Aug 2026"
         },
         {
           "name": "STOXX 600",
@@ -48,12 +48,12 @@
         {
           "name": "MSCI EM",
           "unit": "USD pts",
-          "close": "64.09",
-          "daily": "+0.79%",
-          "ytd": "+14.6%",
-          "dSign": 1,
-          "ySign": 1,
-          "asOf": "31 Jul 2026"
+          "close": "nan",
+          "daily": "+nan%",
+          "ytd": "+nan%",
+          "dSign": 0,
+          "ySign": 0,
+          "asOf": "3 Aug 2026"
         }
       ]
     },
@@ -88,9 +88,9 @@
         {
           "name": "EUR / USD",
           "unit": "Rate",
-          "close": "1.1485",
-          "daily": "+0.08%",
-          "ytd": "-2.0%",
+          "close": "1.1535",
+          "daily": "+0.44%",
+          "ytd": "-1.6%",
           "dSign": 1,
           "ySign": -1,
           "asOf": "ECB daily"
@@ -98,12 +98,12 @@
         {
           "name": "USD / JPY",
           "unit": "Rate",
-          "close": "160.1830",
-          "daily": "-1.91%",
-          "ytd": "+2.2%",
+          "close": "157.5820",
+          "daily": "-1.62%",
+          "ytd": "+0.5%",
           "dSign": -1,
           "ySign": 1,
-          "asOf": "31 Jul 2026"
+          "asOf": "3 Aug 2026"
         }
       ]
     },
@@ -136,19 +136,19 @@
           "name": "ECB 1Y Yield",
           "unit": "Yield %",
           "isBond": true,
-          "close": "2.61%",
-          "daily": "-0.7 bps",
-          "ytd": "-23.5 bps",
-          "dSign": -1,
+          "close": "2.65%",
+          "daily": "+3.7 bps",
+          "ytd": "-19.9 bps",
+          "dSign": 1,
           "ySign": -1
         },
         {
           "name": "ECB 10Y Yield",
           "unit": "Yield %",
           "isBond": true,
-          "close": "3.20%",
-          "daily": "+2.6 bps",
-          "ytd": "-29.9 bps",
+          "close": "3.23%",
+          "daily": "+2.7 bps",
+          "ytd": "-27.3 bps",
           "dSign": 1,
           "ySign": -1
         }
