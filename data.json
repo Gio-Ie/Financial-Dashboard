@@ -1,6 +1,6 @@
 {
   "asOf": "4 Sep 2026",
-  "updatedAt": "08:06 07 Sep 2026 UTC",
+  "updatedAt": "07:57 08 Sep 2026 UTC",
   "sections": [
     {
       "label": "Equities",
@@ -28,22 +28,22 @@
         {
           "name": "STOXX 600",
           "unit": "EUR pts",
-          "close": "649.88",
-          "daily": "+0.12%",
+          "close": "649.90",
+          "daily": "+0.00%",
           "ytd": "+8.0%",
-          "dSign": 1,
+          "dSign": 0,
           "ySign": 1,
-          "asOf": "4 Sep 2026"
+          "asOf": "7 Sep 2026"
         },
         {
           "name": "Nikkei 225",
           "unit": "JPY pts",
-          "close": "65,021",
-          "daily": "+1.26%",
-          "ytd": "+25.4%",
+          "close": "66,400",
+          "daily": "+2.12%",
+          "ytd": "+28.1%",
           "dSign": 1,
           "ySign": 1,
-          "asOf": "4 Sep 2026"
+          "asOf": "7 Sep 2026"
         },
         {
           "name": "MSCI EM",
@@ -89,21 +89,21 @@
           "name": "EUR / USD",
           "unit": "Rate",
           "close": "1.1622",
-          "daily": "+0.06%",
+          "daily": "+0.00%",
           "ytd": "-0.8%",
-          "dSign": 1,
+          "dSign": 0,
           "ySign": -1,
           "asOf": "ECB daily"
         },
         {
           "name": "USD / JPY",
           "unit": "Rate",
-          "close": "155.6600",
-          "daily": "-2.05%",
-          "ytd": "-0.7%",
-          "dSign": -1,
+          "close": "156.1970",
+          "daily": "+0.34%",
+          "ytd": "-0.3%",
+          "dSign": 1,
           "ySign": -1,
-          "asOf": "4 Sep 2026"
+          "asOf": "7 Sep 2026"
         }
       ]
     },
@@ -137,8 +137,8 @@
           "unit": "Yield %",
           "isBond": true,
           "close": "2.74%",
-          "daily": "-1.8 bps",
-          "ytd": "-10.6 bps",
+          "daily": "-0.5 bps",
+          "ytd": "-11.2 bps",
           "dSign": -1,
           "ySign": -1
         },
@@ -146,11 +146,11 @@
           "name": "ECB 10Y Yield",
           "unit": "Yield %",
           "isBond": true,
-          "close": "3.36%",
-          "daily": "-2.7 bps",
-          "ytd": "-13.5 bps",
-          "dSign": -1,
-          "ySign": -1
+          "close": "\u2014",
+          "daily": "\u2014",
+          "ytd": "\u2014",
+          "dSign": 0,
+          "ySign": 0
         }
       ]
     }
